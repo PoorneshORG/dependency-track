@@ -1,5 +1,13 @@
+[tool.poetry]
 name = "dependency-track-test"
 version = "1.0.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
 
-# requirements.txt
-flask==0.12  # vulnerable version
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "0.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
