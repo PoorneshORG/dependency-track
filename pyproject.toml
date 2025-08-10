@@ -1,2 +1,5 @@
 name = "dependency-track-test"
 version = "1.0.0"
+
+# requirements.txt
+flask==0.12  # vulnerable version
