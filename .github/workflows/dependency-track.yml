@@ -17,6 +17,8 @@ jobs:
       with:
         format: cyclonedx
         output-file: sbom.xml
+        path: .
+        upload-artifact: false
 
     - name: Upload SBOM to Dependency-Track
       env:
